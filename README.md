@@ -1,4 +1,4 @@
-# Hey, I'm Tosh Gitonga 👋
+# Hi, I'm Tosh Gitonga 👋
 
 **Backend Engineer** who also builds beautiful frontends. I architect scalable APIs and craft performant systems that power modern web applications.
 
@@ -18,9 +18,7 @@ class Developer:
         }
 ```
 
-## 🔧 What I Build
-
-I specialize in **backend systems** that are fast, reliable, and scalable. While I love crafting elegant frontends with React and Next.js, my true passion lies in designing robust APIs, optimizing database queries, and building architectures that handle real-world complexity.
+I specialize in **backend systems** that are fast, reliable, and scalable. While I love building frontends with React and Next.js, my true passion lies in designing robust APIs, optimizing database queries, and building architectures that handle real-world complexity.
 
 **Core Focus Areas:**
 - 🚀 High-performance REST APIs with **FastAPI**
@@ -31,13 +29,13 @@ I specialize in **backend systems** that are fast, reliable, and scalable. While
 
 ## 💻 Tech Arsenal
 
-**Backend (My Strength)**
+**Backend**
 ```
 FastAPI • Python • PostgreSQL • SQLAlchemy • Pydantic
 REST APIs • WebSockets • JWT Auth • Redis • Docker
 ```
 
-**Frontend (Equally Proficient)**
+**Frontend**
 ```
 Next.js • React • TypeScript • JavaScript • Tailwind CSS
 HTML/CSS • Framer Motion • ShadCN/UI • Responsive Design
