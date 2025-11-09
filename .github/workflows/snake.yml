@@ -1,0 +1,93 @@
+name: Generate Snake Animation
+
+# Trigger configuration: runs daily and supports manual execution
+on:
+  schedule:
+    # Runs at 00:00 UTC (midnight) every day
+    - cron: '0 0 * * *'
+    # Runs at 12:00 UTC (noon) every day
+    - cron: '0 12 * * *'
+  
+  # Enable manual workflow dispatch from GitHub Actions UI
+  workflow_dispatch:
+  
+  # Run on every push to main branch (optional)
+  push:
+    branches:
+      - main
+
+# Limit concurrent executions
+concurrency:
+  group: snake-animation
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    name: Generate Snake Animation
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    # Set appropriate permissions
+    permissions:
+      contents: write
+    
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      
+      # Step 2: Generate the snake game animation
+      - name: Generate Snake Animation
+        uses: Platane/snk/svg-only@v3
+        id: snake-gif
+        with:
+          # GitHub username to read contributions from
+          github_user_name: ${{ github.repository_owner }}
+          
+          # List of outputs to generate with customization options
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#58A6FF&color_dots=#0d1117,#0e4429,#006d32,#26a641,#39d353
+        
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      # Step 3: Show build status for debugging
+      - name: Show Build Status
+        run: |
+          git status
+          echo "✓ Snake animation generated successfully"
+          ls -la dist/
+      
+      # Step 4: Deploy to output branch
+      - name: Deploy to Output Branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          # Branch where the snake animation will be stored
+          target_branch: output
+          
+          # Directory to deploy
+          build_dir: dist
+          
+          # Commit message
+          commit_message: "Update snake animation"
+        
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      # Step 5: Workflow summary
+      - name: Workflow Summary
+        if: always()
+        run: |
+          echo "## Snake Animation Generation Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Trigger:** ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Repository:** ${{ github.repository }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Run Number:** ${{ github.run_number }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Timestamp:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "✅ **Status:** Snake animation generated and deployed to 'output' branch" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "🔗 **View Files:**" >> $GITHUB_STEP_SUMMARY
+          echo "- Light Mode: https://raw.githubusercontent.com/${{ github.repository }}/output/github-contribution-grid-snake.svg" >> $GITHUB_STEP_SUMMARY
+          echo "- Dark Mode: https://raw.githubusercontent.com/${{ github.repository }}/output/github-contribution-grid-snake-dark.svg" >> $GITHUB_STEP_SUMMARY
