@@ -103,21 +103,6 @@ current_focus = {
 
 ---
 
-
-## 🎯 Featured Projects
-
-<div align="center">
-
-| Project | Description | Tech Stack |
-|---------|-------------|-----------|
-| 🔥 **Project Name** | Brief description of your coolest project | `FastAPI` `React` `PostgreSQL` |
-| 🚀 **Another Project** | What makes this project special | `Next.js` `Python` `Docker` |
-| 🎨 **Side Project** | Your creative or experimental work | `Scrapy` `TypeScript` |
-
-</div>
-
----
-
 ## 💼 Core Competencies
 
 <div align="center">
