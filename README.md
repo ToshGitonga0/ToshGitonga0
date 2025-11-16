@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hi, I'm Tosh Gitonga
+# 👋 Hi, I'm Tosh W. Gitonga
 
 ### 🚀 Full-Stack Engineer | FastAPI & Next.js Developer | Web Scraping Specialist
 backend systems
