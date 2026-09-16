@@ -2,112 +2,248 @@
 
 # Tosh W. Gitonga
 
-**Software Engineer · Python · TypeScript**
+### Software Engineer
 
-Backend systems, data infrastructure, SDKs, automation & developer tools.
+**Python · TypeScript · Backend · Data · Automation**
 
 <br>
 
-<a href="https://www.linkedin.com/in/charles-gitonga/">LinkedIn</a>
-  ·   <a href="https://x.com/ToshGitonga_">X</a>
-  ·   <a href="mailto:gitongachas@gmail.com">Email</a>
+I build software that turns complex problems into
+**reliable systems, useful tools, and clean developer experiences.**
+
+<br>
+
+<a href="https://github.com/ToshGitonga0">GitHub</a>
+  ·   <a href="https://www.linkedin.com/in/charles-gitonga/">LinkedIn</a>
+  ·   <a href="https://x.com/ToshGitonga_">X</a>
+  ·   <a href="mailto:gitongachas@gmail.com">Email</a>
 
 </div>
 
----
-
-### About
-
-I build software around **data, APIs, and developer workflows**.
-
-My main languages are **Python and TypeScript**, with a focus on backend engineering, data systems, SDKs, web automation, and full-stack applications.
-
-I particularly enjoy turning complicated or messy systems into **clean, reusable developer infrastructure**.
+<br>
 
 ---
 
-### What I'm building
+## About
 
-**Data infrastructure**
+I'm a software engineer focused on **backend systems, data, automation, and developer tooling**.
 
-Building structured, validated datasets and the tooling around them — from research and normalization to SQLite databases, APIs, and SDKs.
+I work primarily with **Python and TypeScript**, building everything from APIs and data pipelines to SDKs, web applications, automation systems, and developer tools.
 
-**Developer tools**
+I enjoy working where software meets messy real-world problems — taking something complicated, understanding the underlying system, and turning it into something **structured, reliable, and usable**.
 
-Python and TypeScript libraries, SDKs, CLI tools, automation utilities, and API clients.
-
-**Backend systems**
-
-FastAPI services, relational databases, asynchronous systems, authentication, and production APIs.
-
-**Web data**
-
-Data extraction, scraping, browser automation, transformation, and pipelines.
-
----
-
-### Current direction
+My interests sit across a few connected areas:
 
 ```text
-Python + TypeScript
-        │
-        ├── Backend systems
-        ├── Data engineering
-        ├── SDKs & APIs
-        ├── Developer tooling
-        ├── Web automation
-        └── Data products
+Software
+   │
+   ├── Backend systems
+   ├── APIs & integrations
+   ├── Data & databases
+   ├── Automation
+   ├── Web scraping
+   ├── SDKs & developer tooling
+   └── Full-stack applications
 ```
-
-I'm especially interested in **developer infrastructure built around real-world data** — making difficult data easier to discover, validate, query, and build with.
 
 ---
 
-### Technologies
+## What I can build
 
-**Languages**
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Backend systems
+
+Designing and building services that power applications and data products.
+
+* REST APIs
+* Authentication & authorization
+* Database-backed applications
+* Async services
+* API integrations
+* Background processing
+* Real-time communication
+* Service architecture
+
+</td>
+
+<td width="50%" valign="top">
+
+### Data systems
+
+Working with data from collection to consumption.
+
+* Data ingestion
+* Data cleaning & transformation
+* Relational databases
+* Data modelling
+* ETL / data pipelines
+* Structured datasets
+* Data validation
+* API-based data services
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### Web automation
+
+Building systems that interact with the web programmatically.
+
+* Web scraping
+* Browser automation
+* Dynamic websites
+* Data extraction
+* Automated workflows
+* API reverse engineering
+* Scheduled collection
+* Data processing
+
+</td>
+
+<td width="50%" valign="top">
+
+### Developer tooling
+
+Building software that other developers can build with.
+
+* Python packages
+* TypeScript libraries
+* SDKs
+* API clients
+* CLI tools
+* Browser extensions
+* Reusable components
+* Developer utilities
+
+</td>
+</tr>
+</table>
+
+---
+
+## Technology
+
+### Languages
 
 `Python` `TypeScript` `JavaScript` `SQL`
 
-**Backend**
+### Backend
 
-`FastAPI` `PostgreSQL` `SQLite` `SQLAlchemy` `Pydantic` `AsyncIO`
+`FastAPI` `REST` `PostgreSQL` `SQLite` `SQLAlchemy` `Pydantic`
 
-**Frontend**
+### Frontend
 
 `Next.js` `React` `Tailwind CSS`
 
-**Data & Automation**
+### Data & automation
 
-`BeautifulSoup` `Playwright` `Selenium` `Scrapy`
+`Pandas` `BeautifulSoup` `Requests` `Playwright` `Scrapy` `Selenium`
 
-**Developer Tools**
+### Infrastructure & tooling
 
-`Git` `GitHub` `Docker` `npm` `PyPI` `GitHub Actions`
-
----
-
-### Selected projects
-
-**Kenya Data**
-
-A developer-focused data layer for Kenya — structured administrative, geographic, demographic, and spatial data distributed through SQLite, Python, and TypeScript.
-
-**KRA eTIMS TypeScript SDK**
-
-A TypeScript SDK designed to make interaction with the KRA eTIMS ecosystem easier for developers.
-
-**Web Data & Automation Tools**
-
-Tools for extracting, transforming, and automating data from the web.
+`Docker` `Git` `Linux` `GitHub Actions` `Nginx`
 
 ---
 
-### GitHub
+## Engineering interests
+
+I’m particularly interested in the space where **software, data, and automation overlap**.
+
+```text
+       DATA
+        │
+        ▼
+   ┌───────────┐
+   │   MODEL   │
+   └─────┬─────┘
+         │
+         ▼
+      SYSTEM
+         │
+    ┌────┴────┐
+    ▼         ▼
+   API      TOOL
+    │         │
+    └────┬────┘
+         ▼
+     APPLICATION
+```
+
+That means I naturally gravitate toward problems involving:
+
+* **APIs and integrations**
+* **Data infrastructure**
+* **Developer experience**
+* **Automation**
+* **Information extraction**
+* **Distributed and backend systems**
+* **Geospatial and structured data**
+* **Open-source software**
+
+---
+
+## How I approach engineering
+
+I care about more than making something work once.
+
+**Understand the problem.**
+Before reaching for a framework, understand what the system actually needs.
+
+**Design the underlying structure.**
+Good software becomes easier to maintain when the data model and boundaries make sense.
+
+**Automate repetition.**
+If a useful process can be turned into a tool, it probably should be.
+
+**Make interfaces predictable.**
+Whether it's an API, SDK, CLI, or UI, developers should be able to understand how something behaves.
+
+**Keep complexity where it belongs.**
+The user of a system shouldn't have to understand its internal complexity to use it effectively.
+
+---
+
+## The stack in one view
+
+```text
+                 TOSH GITONGA
+                      │
+        ┌─────────────┼─────────────┐
+        │             │             │
+      PYTHON      TYPESCRIPT       SQL
+        │             │             │
+        ├──────┐      ├──────┐      │
+        ▼      ▼      ▼      ▼      ▼
+     Backend  Data   Web    Tools  Databases
+        │      │      │       │      │
+        └──────┴──────┴───────┴──────┘
+                       │
+                       ▼
+                 REAL SOFTWARE
+```
+
+---
+
+## GitHub
 
 <div align="center">
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ToshGitonga0\&theme=github-compact\&hide_border=true)
+<img src="https://github-readme-stats.vercel.app/api?username=ToshGitonga0&show_icons=true&hide_border=true&bg_color=00000000&title_color=58A6FF&text_color=8B949E&icon_color=58A6FF&include_all_commits=true" height="165"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ToshGitonga0&layout=compact&hide_border=true&bg_color=00000000&title_color=58A6FF&text_color=8B949E" height="165"/>
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ToshGitonga0&bg_color=00000000&hide_border=true&color=8B949E&line=58A6FF&point=FFFFFF&area=true" width="95%"/>
 
 </div>
 
@@ -115,6 +251,8 @@ Tools for extracting, transforming, and automating data from the web.
 
 <div align="center">
 
-**Build useful things. Make complicated systems simpler.**
+### Python · TypeScript · Data · Systems
+
+**Build software. Understand the system. Automate the rest.**
 
 </div>
