@@ -1,124 +1,120 @@
 <div align="center">
 
-# 👋 Hi, I'm Tosh W. Gitonga
+# Tosh W. Gitonga
 
-### 🚀 Full-Stack Engineer | FastAPI & Next.js Developer | Web Scraping Specialist
-backend systems
+**Software Engineer · Python · TypeScript**
+
+Backend systems, data infrastructure, SDKs, automation & developer tools.
+
+<br>
+
+<a href="https://www.linkedin.com/in/charles-gitonga/">LinkedIn</a>
+  ·   <a href="https://x.com/ToshGitonga_">X</a>
+  ·   <a href="mailto:gitongachas@gmail.com">Email</a>
 
 </div>
 
-<div align="center">
+---
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/charles-gitonga/)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/ToshGitonga_)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gitongachas@gmail.com)
+### About
 
-</div>
+I build software around **data, APIs, and developer workflows**.
+
+My main languages are **Python and TypeScript**, with a focus on backend engineering, data systems, SDKs, web automation, and full-stack applications.
+
+I particularly enjoy turning complicated or messy systems into **clean, reusable developer infrastructure**.
 
 ---
 
-## 🧠 About Me
+### What I'm building
 
-I'm a **software engineer** who loves turning complex data and ideas into seamless, high-performance applications. From crafting **modern frontends** with Next.js to building **scalable APIs** with FastAPI and **automating the web**, I create systems that are **fast**, **reliable**, and **beautifully engineered**.
+**Data infrastructure**
 
-- 💻 **Full-Stack Developer** with a passion for backend architecture and clean code
-- ⚡ Experienced in building **async FastAPI microservices** and **high-traffic web apps**
-- 🕸️ **Web Scraping Expert** — extracting, cleaning, and transforming data from anywhere on the internet
-- 🧩 Strong focus on **database design**, **API optimization**, and **system scalability**
-- 🌍 Based in **Athi River, Kenya**, building solutions for a global audience
+Building structured, validated datasets and the tooling around them — from research and normalization to SQLite databases, APIs, and SDKs.
 
----
+**Developer tools**
 
-## 🧰 Tech Stack
+Python and TypeScript libraries, SDKs, CLI tools, automation utilities, and API clients.
 
-<table>
-<tr>
-<td valign="top" width="50%">
+**Backend systems**
 
-### Backend Development
-- FastAPI • Python • PostgreSQL
-- SQLAlchemy • Pydantic • AsyncIO
-- REST APIs • WebSockets • JWT
-- Docker • Microservices
+FastAPI services, relational databases, asynchronous systems, authentication, and production APIs.
 
-</td>
-<td valign="top" width="50%">
+**Web data**
 
-### Frontend Development
-- Next.js • React • TypeScript
-- Tailwind CSS • Framer Motion
-- ShadCN/UI • Responsive Design
-
-</td>
-</tr>
-<tr>
-<td valign="top" width="50%">
-
-### Web Scraping & Automation
-- BeautifulSoup • Requests
-- Playwright • Selenium • Scrapy
-- Async scraping • Proxy rotation
-- Data pipelines
-
-</td>
-<td valign="top" width="50%">
-
-### DevOps & Tools
-- Git • Docker • Linux
-- Vercel • Render • Postman
-- Nginx • GitHub Actions
-
-</td>
-</tr>
-</table>
+Data extraction, scraping, browser automation, transformation, and pipelines.
 
 ---
 
-## 🚀 What I'm Building
+### Current direction
 
-```python
-current_focus = {
-    "backend": "Scalable FastAPI microservices for production systems",
-    "fullstack": "Next.js + FastAPI projects for real clients",
-    "opensource": "Web scraping tools and automation libraries",
-    "learning": "Advanced system architecture and performance optimization"
-}
+```text
+Python + TypeScript
+        │
+        ├── Backend systems
+        ├── Data engineering
+        ├── SDKs & APIs
+        ├── Developer tooling
+        ├── Web automation
+        └── Data products
 ```
 
+I'm especially interested in **developer infrastructure built around real-world data** — making difficult data easier to discover, validate, query, and build with.
+
 ---
 
-## 💼 Core Competencies
+### Technologies
+
+**Languages**
+
+`Python` `TypeScript` `JavaScript` `SQL`
+
+**Backend**
+
+`FastAPI` `PostgreSQL` `SQLite` `SQLAlchemy` `Pydantic` `AsyncIO`
+
+**Frontend**
+
+`Next.js` `React` `Tailwind CSS`
+
+**Data & Automation**
+
+`BeautifulSoup` `Playwright` `Selenium` `Scrapy`
+
+**Developer Tools**
+
+`Git` `GitHub` `Docker` `npm` `PyPI` `GitHub Actions`
+
+---
+
+### Selected projects
+
+**Kenya Data**
+
+A developer-focused data layer for Kenya — structured administrative, geographic, demographic, and spatial data distributed through SQLite, Python, and TypeScript.
+
+**KRA eTIMS TypeScript SDK**
+
+A TypeScript SDK designed to make interaction with the KRA eTIMS ecosystem easier for developers.
+
+**Web Data & Automation Tools**
+
+Tools for extracting, transforming, and automating data from the web.
+
+---
+
+### GitHub
 
 <div align="center">
 
-```typescript
-const skills = {
-  backend: ["FastAPI", "Python", "PostgreSQL", "SQLAlchemy", "Docker"],
-  frontend: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
-  scraping: ["BeautifulSoup", "Playwright", "Selenium", "Data Pipelines"],
-  architecture: ["RESTful APIs", "Microservices", "Async Programming", "Database Design"]
-}
-```
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ToshGitonga0\&theme=github-compact\&hide_border=true)
 
 </div>
 
 ---
 
-## 📈 Activity Graph
-
 <div align="center">
 
-[![Tosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ToshGitonga0&theme=tokyo-night&hide_border=true&bg_color=0D1117)](https://github.com/ToshGitonga0)
+**Build useful things. Make complicated systems simpler.**
 
 </div>
-
----
-
-<div align="center">
-
-### 💡 *"Great backends make everything else possible."*
-
-**Building the engines that power digital experiences.**
-
----
-
