@@ -126,34 +126,8 @@ Building software that other developers can build with.
 
 ---
 
-## Technology
-
-### Languages
-
-`Python` `TypeScript` `JavaScript` `SQL`
-
-### Backend
-
-`FastAPI` `REST` `PostgreSQL` `SQLite` `SQLAlchemy` `Pydantic`
-
-### Frontend
-
-`Next.js` `React` `Tailwind CSS`
-
-### Data & automation
-
-`Pandas` `BeautifulSoup` `Requests` `Playwright` `Scrapy` `Selenium`
-
-### Infrastructure & tooling
-
-`Docker` `Git` `Linux` `GitHub Actions` `Nginx`
-
----
-
 <div align="center">
 
 ### Python · TypeScript · Data · Systems
-
-**Build software. Understand the system. Automate the rest.**
 
 </div>
