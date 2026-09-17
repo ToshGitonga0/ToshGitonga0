@@ -48,7 +48,7 @@ Software
 
 ---
 
-## What I can build
+## What I build
 
 <table>
 <tr>
