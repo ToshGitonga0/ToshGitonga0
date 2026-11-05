@@ -23,6 +23,10 @@ I help organizations turn raw data into insight, prediction, and practical decis
 
 Python · SQL · Pandas · NumPy · Scikit-learn · Jupyter · PostgreSQL · FastAPI · TypeScript · React · Docker
 
+## Certifications
+
+[View my Credly badges](https://www.credly.com/users/charles-gitonga.29e882c0/badges/credly) · [View badge](https://www.credly.com/badges/e4c331fb-5f90-472c-a99e-a70f36a0087c)
+
 ## Elsewhere
 
 [Website](https://personal-site-five-woad.vercel.app) ·
