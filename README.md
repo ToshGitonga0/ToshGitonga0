@@ -1,22 +1,27 @@
 # Charles "Tosh" Gitonga
 
-Software Engineer — Python, TypeScript, Data Infrastructure & SDKs — Nairobi, Kenya
+Certified Data Scientist — IBM Data Science Professional Certificate — Python, SQL, Machine Learning & Data Infrastructure
 
-I build open data infrastructure and API/SDK integrations. Most of what's below is dual-published for Python and TypeScript, with the data provenance and validation work documented alongside the code.
+I help organizations turn raw data into insight, prediction, and practical decisions. My work blends data science, analytics, and software engineering to build reliable data products, pipelines, and APIs.
 
-## What I've shipped
+## What I do
 
-- **[Kenya Data](https://github.com/ToshGitonga0/kenya-data)** — Kenyan
-  administrative/geographic data (47 counties, 290 constituencies, 1,450 wards)
-  as a portable SQLite database with native Python
-  ([`kenya-data` on PyPI](https://pypi.org/project/kenya-data/)) and TypeScript
-  ([`kenya-data-core` on npm](https://www.npmjs.com/package/kenya-data-core))
-  SDKs.
-- **[kra-etims-oscu-sdk](https://github.com/ToshGitonga0/kra-etims)** — an
-  unofficial, strictly-typed TypeScript SDK for the Kenya Revenue Authority's
-  eTIMS OSCU tax API, with every endpoint traced back to KRA's own
-  specification documents. [On npm](https://www.npmjs.com/package/kra-etims-oscu-sdk).
-- **[KryptoKE](https://github.com/ToshGitonga0/kryptoke)** — a full-stack crypto-trading demo application (FastAPI +     Next.js + PostgreSQL): JWT auth, RBAC, order matching, M-Pesa Daraja integration hooks, price simulator. This is a     well-built portfolio piece, not a deployed product with users
+- Data analysis and exploratory data analysis (EDA)
+- SQL and Python-based data wrangling and modeling
+- Machine learning and predictive analytics
+- Data visualization and storytelling for decision-makers
+- Data infrastructure, API integrations, and end-to-end data products
+
+## Featured work
+
+- [IBM Applied Data Science Capstone](https://github.com/ToshGitonga0/applied-data-science-capstone) — SpaceX Falcon 9 landing analysis and predictive modeling using Python, SQL, visualizations, and machine learning
+- [Kenya Data](https://github.com/ToshGitonga0/kenya-data) — Open, structured administrative and geographic data for Kenya, packaged as a portable SQLite database with Python and TypeScript SDKs
+- [KRA eTIMS SDK](https://github.com/ToshGitonga0/kra-etims) — Strictly typed TypeScript SDK for the Kenya Revenue Authority's eTIMS platform
+- [KryptoKE](https://github.com/ToshGitonga0/kryptoke) — Full-stack crypto trading application built with FastAPI and Next.js
+
+## Technical stack
+
+Python · SQL · Pandas · NumPy · Scikit-learn · Jupyter · PostgreSQL · FastAPI · TypeScript · React · Docker
 
 ## Elsewhere
 
